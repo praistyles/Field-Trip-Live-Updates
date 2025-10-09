@@ -59,7 +59,7 @@ body {
   margin-bottom: 2rem;
 }
 
-#profile img {
+.profile img {
     border: 1px solid #ffa125;
     border-radius: 5px;
     margin-left: auto;
@@ -69,8 +69,9 @@ body {
 
 }
 
-#profile p {
+.profile p {
     text-align: center;
     margin-top: 10px;
+    margin-bottom: 2rem;
 }
 
