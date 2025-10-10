@@ -26,3 +26,14 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
+
+
+const buttonElem = document.querySelector('.btn-js');
+
+
+buttonElem.addEventListener("click", () => {openProg()})
+
+function openProg() {
+   window.location.href='program.html'
+}
+
